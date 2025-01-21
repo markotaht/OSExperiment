@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1278,5): warning MSB8012: TargetPath(D:\OSProject\Kernel\Kernel\Debug\Kernel.exe) does not match the Linker's OutputFile property value (A:\Kernel.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+DebugDisplay.obj : error LNK2019: unresolved external symbol "unsigned int __cdecl strlen(char const *)" (?strlen@@YAIPBD@Z) referenced in function "int __cdecl DebugPrintf(char const *,...)" (?DebugPrintf@@YAHPBDZZ)
+entry.obj : error LNK2019: unresolved external symbol "void __cdecl InitializeConstructors(void)" (?InitializeConstructors@@YAXXZ) referenced in function "void __cdecl kernel_entry(void)" (?kernel_entry@@YAXXZ)
+entry.obj : error LNK2019: unresolved external symbol "void __cdecl Exit(void)" (?Exit@@YAXXZ) referenced in function "void __cdecl kernel_entry(void)" (?kernel_entry@@YAXXZ)
+A:\Kernel.exe : fatal error LNK1120: 3 unresolved externals
